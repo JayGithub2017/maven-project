@@ -11,6 +11,8 @@ pipeline {
             steps {
                 bat '''
                     echo "PATH = ${PATH}"
+					}
+        }
                     					
         stage('Build'){
             steps {
