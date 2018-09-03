@@ -1,10 +1,7 @@
 pipeline {
     agent any
 	
-	tools { 
-        localMaven 'Maven 3.5.4' 
-            }
-    stages{
+	stages{
 	
 		stage ('Initialize') {
             steps {
